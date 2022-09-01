@@ -1,0 +1,36 @@
+package Complex;
+
+public class Complex {
+	private double r;
+	private double i;
+
+	public Complex(double r, double i) {
+		super();
+		this.r = r;
+		this.i = i;
+	}
+
+	public static Complex add(Complex number1, Complex number2) {
+		Complex newNumber = new Complex(0, 0);
+		newNumber.r = number1.r + number2.r;
+		newNumber.i = number1.i + number2.i;
+		return newNumber;
+	}
+
+	public double getR() {
+		return r;
+	}
+
+	public void setR(double r) {
+		this.r = r;
+	}
+
+	public double getI() {
+		return i;
+	}
+
+	public void setI(double i) {
+		this.i = i;
+	}
+
+}

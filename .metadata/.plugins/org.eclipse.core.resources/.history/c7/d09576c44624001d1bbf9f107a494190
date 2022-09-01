@@ -1,0 +1,18 @@
+package Complex;
+
+public class TestComplex {
+	
+	//	在测试类中完成2个复数对象的构建完成相加并赋值给第3个复数对象。
+	public static void main(String[] args) {
+		Complex n1 = new Complex(2.7, 0);
+		Complex n2 = new Complex(0, 7.2);
+
+		System.out.println(n1.toString());
+		System.out.println(n2.toString());
+
+		Complex n3 = Complex.add(n1, n2);
+
+		System.out.println(n3.toString());
+
+	}
+}

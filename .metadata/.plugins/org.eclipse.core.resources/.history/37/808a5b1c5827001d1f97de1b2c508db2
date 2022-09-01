@@ -1,0 +1,15 @@
+package NetUser;
+
+public class TestNetUser {
+	// Net User test class
+	public static void main(String[] args) {
+		NetUser user1 = new NetUser();
+		user1.shotInfo();
+
+		NetUser user2 = new NetUser("120211080526", "1234qwer");
+		user2.shotInfo();
+
+		NetUser user3 = new NetUser("120211080526", "1234qwer", "Szpsn2357@gmail.com");
+		user3.shotInfo();
+	}
+}

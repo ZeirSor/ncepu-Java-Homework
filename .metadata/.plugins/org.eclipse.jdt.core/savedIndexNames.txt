@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\ncepu\ncepu-JavaHomework\.metadata\.plugins\org.eclipse.jdt.core
+2289976769.index
+2249977045.index
+2592765075.index
+1865797976.index
+1678942532.index

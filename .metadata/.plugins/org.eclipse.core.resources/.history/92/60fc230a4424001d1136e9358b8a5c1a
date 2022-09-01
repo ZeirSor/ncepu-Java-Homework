@@ -1,0 +1,7 @@
+package Complex;
+
+public class Complex {
+	private double r;
+	private double i;
+
+}

@@ -1,0 +1,14 @@
+package Complex;
+
+public class TestComplex {
+	public static void main(String[] args) {
+		Complex n1 = new Complex(2.7, 0);
+		Complex n2 = new Complex(0, 7.2);
+
+		System.out.println(n1.toString());
+		System.out.println(n2.toString());
+
+		new Complex().add(n1, n2);
+
+	}
+}
