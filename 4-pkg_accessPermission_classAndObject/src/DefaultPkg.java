@@ -12,6 +12,10 @@ public class DefaultPkg {
 		s.setId("625080112021");
 		s.setAge(20);
 		s.showInfo();
+
+		// output
+//		Student [name=zhangshuo, id=120211080526, age=19]
+//		Student [name=shuozhang, id=625080112021, age=20]
 	}
 
 }
