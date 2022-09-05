@@ -1,8 +1,0 @@
-package NetUser;
-
-public class TestNetUser {
-	// Net User test class
-	public static void main(String[] args) {
-		
-	}
-}
