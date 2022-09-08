@@ -12,8 +12,17 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="pkg_homework2.Student"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="pkg_homework1.Computer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="pkg_homework1.Destop"/>
+    <fullyQualifiedTypeName name="pkg_homework1.Laptop"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="pkg_homework2.Rectangle"/>
+    <fullyQualifiedTypeName name="pkg_homework2.Cuboid"/>
+    <fullyQualifiedTypeName name="pkg_howework3.Emploee"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="pkg_howework3.Employee"/>
+    <fullyQualifiedTypeName name="pkg_howework3.Manager"/>
 </qualifiedTypeNameHistroy>
