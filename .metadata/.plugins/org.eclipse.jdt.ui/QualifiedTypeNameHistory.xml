@@ -29,8 +29,16 @@
     <fullyQualifiedTypeName name="pkg_homework1.Bird"/>
     <fullyQualifiedTypeName name="pkg_homework2.AnimalInterface"/>
     <fullyQualifiedTypeName name="pkg_homework3.Skills"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="pkg_homework3.Artist"/>
+    <fullyQualifiedTypeName name="pkg_homework1.text"/>
+    <fullyQualifiedTypeName name="pkg_homework1.Phone"/>
+    <fullyQualifiedTypeName name="pkg_homework1.navigate"/>
+    <fullyQualifiedTypeName name="pkg_homework1.MobilePhone"/>
+    <fullyQualifiedTypeName name="pkg_homework1.ElderlyPhone"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.metal.MetalProgressBarUI"/>
+    <fullyQualifiedTypeName name="pkg_homework2.MobilePhone"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="pkg_homework3.Season"/>
 </qualifiedTypeNameHistroy>
