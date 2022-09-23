@@ -29,8 +29,6 @@
     <fullyQualifiedTypeName name="pkg_homework1.Bird"/>
     <fullyQualifiedTypeName name="pkg_homework2.AnimalInterface"/>
     <fullyQualifiedTypeName name="pkg_homework3.Skills"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="pkg_homework3.Artist"/>
     <fullyQualifiedTypeName name="pkg_homework1.text"/>
     <fullyQualifiedTypeName name="pkg_homework1.Phone"/>
@@ -39,6 +37,13 @@
     <fullyQualifiedTypeName name="pkg_homework1.ElderlyPhone"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.metal.MetalProgressBarUI"/>
     <fullyQualifiedTypeName name="pkg_homework2.MobilePhone"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="pkg_homework3.Season"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
+    <fullyQualifiedTypeName name="pkg_homework1.ArrayListStringTest"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
