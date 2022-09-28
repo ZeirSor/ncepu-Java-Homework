@@ -21,21 +21,16 @@ public class UndergraduateSystem {
 			Scanner sc = new Scanner(System.in);
 			String choose = sc.next();
 			switch (choose) {
-			case "1" -> {
-				addUndergraduateInfo();
-			}
-			case "2" -> {
-				removeUndergraduateInfo();
-			}
-			case "3" -> {
-				modifyUndergraduateInfo();
-			}
-			case "4" -> {
-				queryUndergraduateInfo();
-			}
-			case "5" -> {
-				printAllInfo();
-			}
+			case "1" -> addUndergraduateInfo();
+
+			case "2" -> removeUndergraduateInfo();
+
+			case "3" -> modifyUndergraduateInfo();
+
+			case "4" -> queryUndergraduateInfo();
+
+			case "5" -> printAllInfo();
+
 			case "6" -> {
 				System.out.println("exit!");
 				System.exit(0);
