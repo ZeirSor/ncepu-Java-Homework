@@ -12,6 +12,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="string"/>
 			<item value="extends Animal "/>
 			<item value="------"/>
 		</list>
