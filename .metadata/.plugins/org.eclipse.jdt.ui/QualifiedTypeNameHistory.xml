@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="DefaultPkg"/>
-    <fullyQualifiedTypeName name="se.chapter2.Student"/>
-    <fullyQualifiedTypeName name="Complex.Complex"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
-    <fullyQualifiedTypeName name="pkg_homework2.Student"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="pkg_homework1.Computer"/>
     <fullyQualifiedTypeName name="pkg_homework1.Destop"/>
     <fullyQualifiedTypeName name="pkg_homework1.Laptop"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="pkg_homework2.Rectangle"/>
     <fullyQualifiedTypeName name="pkg_homework2.Cuboid"/>
     <fullyQualifiedTypeName name="pkg_howework3.Emploee"/>
@@ -49,15 +41,23 @@
     <fullyQualifiedTypeName name="hm2.GradeAverageFailsException"/>
     <fullyQualifiedTypeName name="javax.swing.JInternalFrame"/>
     <fullyQualifiedTypeName name="hk1.SwingDemo_button_FlowBorderLayout"/>
-    <fullyQualifiedTypeName name="java.awt.Button"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
     <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
-    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
-    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="java.awt.GridLayout"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="hk2.SwingDemo_GridLayout"/>
+    <fullyQualifiedTypeName name="java.awt.Button"/>
+    <fullyQualifiedTypeName name="hk1.MyFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="hk1.EventListener"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="hk1.MyFrame.InnerEventListener"/>
+    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="hk2.Frame_SwapButton"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
