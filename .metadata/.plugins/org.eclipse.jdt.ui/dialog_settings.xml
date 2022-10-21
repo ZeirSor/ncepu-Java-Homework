@@ -53,7 +53,7 @@
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_X_ORIGIN" value="351"/>
-		<item key="DIALOG_Y_ORIGIN" value="419"/>
+		<item key="DIALOG_Y_ORIGIN" value="59"/>
 		<item key="DIALOG_WIDTH" value="766"/>
 		<item key="DIALOG_HEIGHT" value="1032"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
@@ -115,5 +115,8 @@
 	</section>
 	<section name="SelfEncapsulateFieldWizard">
 		<item key="GenerateJavadoc" value="false"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
 	</section>
 </section>
