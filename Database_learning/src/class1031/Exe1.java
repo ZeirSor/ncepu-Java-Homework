@@ -1,18 +1,23 @@
-package Class1031;
+package class1031;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Exe1 {
 	public static void main(String[] args) {
+
+		Connection connection = null;
+		Statement statement = null;
+
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			String DB_URL = "jdbc:mysql://localhost:3306/db_test?serverTimezone=UTC";
 
-			Connection connection = DriverManager.getConnection(DB_URL, "root", "1234");
+			connection = DriverManager.getConnection(DB_URL, "root", "1234");
 
 			if (connection != null) {
 				System.out.println("success!");
@@ -20,7 +25,7 @@ public class Exe1 {
 
 //			String id_toQuery = "1103";
 
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 //			String sql = "SELECT * FROM user where id=" + id_toQuery;
 			String sql = "SELECT * FROM user";
 			System.out.println(sql);
@@ -41,6 +46,23 @@ public class Exe1 {
 
 		} catch (Exception e) {
 			// TODO: handle exception
+		} finally {
+			if (connection != null) {
+				try {
+					connection.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			if (statement != null) {
+				try {
+					statement.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
 	}
 }
