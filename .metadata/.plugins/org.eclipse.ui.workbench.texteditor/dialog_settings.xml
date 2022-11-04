@@ -5,13 +5,18 @@
 		<item key="DIALOG_Y_ORIGIN" value="531"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="buttonPanel"/>
+		<item key="selection" value="setSelected"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="setSelected"/>
+			<item value="getvalue"/>
+			<item value="buttongroup"/>
+			<item value="button"/>
+			<item value="dtm"/>
 			<item value="buttonPabel"/>
 			<item value="string"/>
 			<item value="extends Animal "/>
@@ -23,8 +28,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1060"/>
-		<item key="DIALOG_Y_ORIGIN" value="391"/>
+		<item key="DIALOG_X_ORIGIN" value="945"/>
+		<item key="DIALOG_Y_ORIGIN" value="698"/>
 		<item key="DIALOG_WIDTH" value="463"/>
 		<item key="DIALOG_HEIGHT" value="511"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>

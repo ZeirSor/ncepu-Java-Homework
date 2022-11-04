@@ -39,12 +39,13 @@ public class DBOperations {
 		}
 	}
 
-	public static void add(Connection coon, String id, String name, int age) throws SQLException {
-		String sql = "insert into student VALUES(?, ?, ?)";
+	public static void add(Connection coon, String id, String name, int age, String gender) throws SQLException {
+		String sql = "insert into student VALUES(?, ?, ?, ?)";
 		ps = coon.prepareStatement(sql);
 		ps.setString(1, id);
 		ps.setString(2, name);
 		ps.setInt(3, age);
+		ps.setString(4, gender);
 		System.out.println(sql);
 		ps.execute();
 		ps.close();
@@ -69,9 +70,10 @@ public class DBOperations {
 		statement.close();
 	}
 
-	public static void mod(Connection coon, String oldId, String newId, String name, int age) throws SQLException {
-		String sql = "update student set id='" + newId + "',name='" + name + "',age=" + age + " where id='" + oldId
-				+ "'";
+	public static void mod(Connection coon, String oldId, String newId, String name, int age, String gender)
+			throws SQLException {
+		String sql = "update student set id='" + newId + "',name='" + name + "',age=" + age + ", gender='" + gender
+				+ "' where id='" + oldId + "'";
 		System.out.println(sql);
 		statement = coon.createStatement();
 		statement.executeUpdate(sql);
