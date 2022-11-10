@@ -80,8 +80,8 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="615"/>
-		<item key="DIALOG_Y_ORIGIN" value="47"/>
+		<item key="DIALOG_X_ORIGIN" value="1097"/>
+		<item key="DIALOG_Y_ORIGIN" value="132"/>
 		<item key="DIALOG_WIDTH" value="836"/>
 		<item key="DIALOG_HEIGHT" value="1027"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
@@ -107,8 +107,8 @@
 		<item key="showtypes" value="true"/>
 	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
-		<item key="DIALOG_X_ORIGIN" value="1219"/>
-		<item key="DIALOG_Y_ORIGIN" value="235"/>
+		<item key="DIALOG_X_ORIGIN" value="878"/>
+		<item key="DIALOG_Y_ORIGIN" value="192"/>
 		<item key="DIALOG_WIDTH" value="849"/>
 		<item key="DIALOG_HEIGHT" value="780"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>

@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.io.ObjectOutput"/>
-    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="hk2.ObjectStream_"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="hk3.ObjectArrayStream_"/>
-    <fullyQualifiedTypeName name="hk2.Student"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.SliderUI"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="Exe221024.Student"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
-    <fullyQualifiedTypeName name="databaseVisit.DatabaseOperations"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="class1103.StudentFrame"/>
-    <fullyQualifiedTypeName name="test4.StuFrame"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="javax.swing.JTable"/>
     <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
     <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
@@ -50,7 +27,6 @@
     <fullyQualifiedTypeName name="db_frame.DBOperations"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Delayed"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="db_frame.DBframe"/>
     <fullyQualifiedTypeName name="javax.swing.ListSelectionModel"/>
     <fullyQualifiedTypeName name="javax.swing.event.ListSelectionListener"/>
@@ -59,5 +35,29 @@
     <fullyQualifiedTypeName name="javax.swing.AbstractButton"/>
     <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="class1107.MyThread2"/>
+    <fullyQualifiedTypeName name="class1107.MyThreadA"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+    <fullyQualifiedTypeName name="class1107.MyThreadB"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.awt.image.DataBufferByte"/>
+    <fullyQualifiedTypeName name="java.io.UTFDataFormatException"/>
+    <fullyQualifiedTypeName name="class1107.SellTicket"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="class1107.MyThread"/>
+    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMTransform"/>
+    <fullyQualifiedTypeName name="class1107.MyCallable"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="hk1.ThreadSumA"/>
+    <fullyQualifiedTypeName name="hk1.ThreadSumB"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="hk2.MyCallable"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+    <fullyQualifiedTypeName name="hk3.ProductionThread"/>
+    <fullyQualifiedTypeName name="hk3.GoodsShelve"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.FutureTask"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
