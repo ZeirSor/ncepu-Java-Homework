@@ -9,14 +9,16 @@ public class GoodsShelve {
 		this.maxSize = maxSize;
 	}
 
-	public boolean addGoods(int num) {
+	public synchronized boolean addGoods(int num) {
 		this.size += num;
 		if (!isFull()) {
-			System.out.println("add " + num + " goods into the shelves. now the size of the shelves is " + this.size);
+			System.out.println(Thread.currentThread().getName() + " add " + num
+					+ " goods into the shelves. now the size of the shelves is " + this.size);
 		} else {
 			int overSize = this.size - this.maxSize;
-			System.out.println("Successfully add " + (num - overSize) + " goods into the Shelve. There are " + overSize
-					+ " items left that have not been added.\n The Goods Shelve is full!");
+			System.out.println(Thread.currentThread().getName() + " Successfully add " + (num - overSize)
+					+ " goods into the Shelve. There are " + overSize
+					+ " items left that have not been added.\nThe Goods Shelve is full!");
 			this.size = this.maxSize;
 			return false;
 		}
@@ -46,5 +48,4 @@ public class GoodsShelve {
 	public void setMaxSize(int maxSize) {
 		this.maxSize = maxSize;
 	}
-
 }

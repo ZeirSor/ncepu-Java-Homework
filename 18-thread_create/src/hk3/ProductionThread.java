@@ -22,21 +22,21 @@ public class ProductionThread implements Callable<String> {
 
 		while (!this.gs.isFull()) {
 			int randProductions = this.r.nextInt(1, 10);
-			int addNums = randProductions;
 			this.productions += randProductions;
-			System.out.println(Thread.currentThread().getName() + " produced " + randProductions + " items.");
-			System.out.println(Thread.currentThread().getName() + " has produced " + productions + " items.");
+
+			System.out.println(Thread.currentThread().getName() + " produced " + randProductions + " items.\n"
+					+ Thread.currentThread().getName() + " has produced " + productions + " items.");
 
 			if (this.productions >= 100) {
-				int over = this.productions - 100;
-				addNums = randProductions - over;
-				this.gs.addGoods(addNums);
+				this.gs.addGoods(randProductions);
 				System.out.println(Thread.currentThread().getName() + " stop!(100)");
 				break;
 			}
 
-			if (!this.gs.addGoods(addNums))
-				System.out.println(Thread.currentThread().getName() + " stop!");
+			synchronized (this) {
+				if (!this.gs.addGoods(randProductions))
+					System.out.println(Thread.currentThread().getName() + " stop!");
+			}
 		}
 		return Thread.currentThread().getName() + " stop!";
 	}
