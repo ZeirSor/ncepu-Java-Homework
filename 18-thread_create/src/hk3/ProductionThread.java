@@ -5,6 +5,8 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
+//	3、有一个货架（大小200），有两个生产商品的线程分别生产100个物品（可以是一个随机的int型变量）并存在货架中，编写程序模拟这个过程。
+
 public class ProductionThread implements Callable<String> {
 
 	private Random r = new Random();
