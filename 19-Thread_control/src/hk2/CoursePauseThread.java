@@ -2,6 +2,8 @@ package hk2;
 
 import java.util.Calendar;
 
+//	2、编写一个线程模拟一门课程的上课过程，主线程控制在45秒后暂停该课程，10秒之后再次继续该课程，然后45秒之后课程结束。
+
 public class CoursePauseThread implements Runnable {
 
 	// 结束课程标志

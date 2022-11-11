@@ -2,6 +2,8 @@ package hk1;
 
 import java.util.Calendar;
 
+//	1、编写一个线程模拟一门课程的上课过程，主线程控制在45秒后结束该线程。
+
 public class CourseThread extends Thread {
 
 	private boolean flag = true;

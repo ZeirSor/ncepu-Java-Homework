@@ -2,6 +2,8 @@ package hk3;
 
 import java.util.Random;
 
+//	3、模拟2个线程取钱，每个线程取5次，每次取钱金额是0-100内随机整数，取钱包括减少金额，打印信息两个步骤
+
 public class WithdrawThread extends Thread {
 
 	private Account account;
