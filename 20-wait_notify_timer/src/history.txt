@@ -1,0 +1,125 @@
+package hk1;
+
+import java.util.Random;
+
+public class GenerateRandint {
+	Referee referee = new Referee();
+
+	Random random = new Random();
+
+	public static int flag = 0;
+
+	public GenerateRandint() {
+	}
+
+	public synchronized int generateRandint() {
+		int res = random.nextInt(10);
+		Thread curThread = Thread.currentThread();
+		referee.updateKV(curThread, res);
+		System.out.println(curThread.getName() + "产生了" + res);
+		flag += 1;
+		return res;
+	}
+
+}
+
+-------------------------------------------------------------------------
+
+package hk1;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+public class GenerateThread implements Runnable {
+	int nums;
+	GenerateRandint gr = new GenerateRandint();
+
+	public GenerateThread(int nums) {
+		// TODO Auto-generated constructor stub
+		this.nums = nums;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < nums; i++) {
+			gr.generateRandint();
+			try {
+				Thread.sleep(200);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		ExecutorService pool = new ThreadPoolExecutor(2, 2, 1, TimeUnit.SECONDS, new ArrayBlockingQueue<>(1));
+
+		Runnable target = new GenerateThread(5);
+		pool.execute(target);
+		pool.execute(target);
+		pool.shutdown();
+
+	}
+
+}
+
+-------------------------------------------------------------------------------
+
+package hk1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class Referee {
+
+	HashMap<Thread, Integer> hm = new HashMap<>();
+
+	int flag = 0;
+
+	public void updateKV(Thread thread, int value) {
+		hm.put(thread, value);
+		flag++;
+		if (flag == 2) {
+			flag = 0;
+			Set<Entry<Thread, Integer>> set = hm.entrySet();
+
+		}
+	}
+
+	public void judge() {
+		ArrayList<String> list = new ArrayList<>();
+
+		int maxValue = getMax();
+
+		for (Map.Entry<Thread, Integer> entry : hm.entrySet()) {
+			if (entry.getValue() == maxValue) {
+				list.add(entry.getKey().getName());
+			}
+		}
+
+		String winName = "";
+		for (String name : list) {
+			winName = winName + name + " ";
+		}
+		winName += "获胜";
+		System.out.println(winName);
+	}
+
+	public int getMax() {
+		if (hm.size() == 0)
+			return -1;
+		Collection<Integer> c = hm.values();
+		Object[] obj = c.toArray();
+		Arrays.sort(obj);
+		return (int) obj[obj.length - 1];
+	}
+}
