@@ -35,7 +35,7 @@ public class TimeSleepDemo {
 			label.setText(hour + ":" + minute + ":" + second + ":" + millSecond);
 
 			try {
-				Thread.sleep(1);
+				Thread.sleep(2);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
